@@ -1,0 +1,77 @@
+.examinations-notifications-container {
+  display: block;
+}
+.examinations-notifications-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+.examinations-head {
+  margin-bottom: 20px;
+  margin-left: 197px;
+}
+.notifications-head {
+  margin-right: 250px;
+  margin-bottom: 10px;
+}
+.notifications-head .updates,
+.examinations-head .updates {
+  font-family: arial;
+  font-size: 18px;
+}
+
+.head-span {
+  color: #e2502c;
+  font-family: arial;
+  font-size: 30px;
+}
+.board {
+  color:black;
+  font-family: arial;
+  font-size: 30px;
+}
+.examinations-notifications-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.marquee-exam {
+  border: 2px #e2502c solid;
+  width: 420px;
+  margin-left: 200px;
+  font-family: arial;
+}
+.exam-back {
+  color: #e2502c;
+  font-family: arial;
+  font-size: 16px;
+}
+.exam-back:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+.notifications-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.marquee-notification {
+  border: 2px #e2502c solid;
+  width: 420px;
+  height:360px;
+  margin-right:200px ;
+  font-family: arial;
+}
+.notification-span {
+  color: #e2502c;
+  font-family: arial;
+  font-size: 16px;
+}
+.notification-span:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}

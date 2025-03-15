@@ -1,0 +1,80 @@
+.navigater {
+  margin-top: 22px;
+  display: block;
+  background-color: #E2502C;
+}
+.nav-links {
+  padding:14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 170px;
+  margin-right: 230px;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.nav-link:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.about-icon,
+.admissons,
+.academics,
+.departments,
+.r-d,
+.mous,
+.campus-life {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.about-icon .tooltip,
+.admissons .tooltip,
+.academics .tooltip,
+.departments .tooltip,
+.r-d .tooltip,
+.mous .tooltip,
+.campus-life .tooltip {
+  background-color: white;
+  color: #E2502C;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  line-height: 25px;
+  padding-right: 5px;
+  transition: opacity 0.15;
+  opacity:0;
+  pointer-events: none;
+  top:20px;
+}
+.about-icon:hover  .tooltip,
+.admissons:hover .tooltip,
+.academics:hover .tooltip,
+.departments:hover .tooltip,
+.r-d:hover .tooltip,
+.mous:hover .tooltip,
+.campus-life:hover .tooltip {
+  opacity: 1;
+  pointer-events: visible;
+}
+.website-grid {
+  display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+

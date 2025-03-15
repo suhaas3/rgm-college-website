@@ -1,0 +1,192 @@
+.departments-rgm {
+  margin-top: 150px;
+  display: block;
+  background-color: #E2502c;
+  width: 100%;
+  padding-bottom: 70px;
+}
+.department-img {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.our-departments {
+  display: flex;
+  flex-direction: column;
+}
+.our-head {
+  margin-left: 180px;
+}
+.our {
+  color: black;
+  font-family: arial;
+  font-size: 40px;
+}
+.department {
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+}
+.our-description {
+  margin-top: -15px;
+  font-family: arial;
+  margin-left: 180px;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 70px;
+}
+.cse-img ,
+.csd-img ,
+.aiml-img ,
+.csb-img {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.dept-cse,
+.dept-csd,
+.dept-aiml,
+.dept-csb {
+  font-family: Arial;
+  font-size: 40px;
+  color: white;
+}
+.dept-cse:hover {
+  cursor: pointer;
+  color:aqua;
+}
+.dept-aiml:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.dept-csb:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.dept-csd:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.our-achievements-container {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.achievements {
+  color: #E2502c;
+  font-family: arial;
+  font-size: 40px;
+}
+.archi-des {
+  font-family: arial;
+  line-height: 28px;
+  font-size: 14px;
+}
+.awards {
+  display: block;
+  margin-top: 40px;
+}
+.students {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.student-count {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.graduates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.award-winners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.faculties {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.achive-span {
+  color: #E2502c;
+  font-family: arial;
+  font-size: 40px;
+}
+.a-text {
+  font-family: arial;
+  font-size: 20px;
+  color: rgb(107, 104, 104);
+}
+.link-head-3 {
+  margin-top: 70px;
+  background-color: #E2502c;
+  width: 100%;
+  height:30px;
+}
+.archi-des-1 {
+  font-family: arial;
+  font-size: 18px;
+}
+.our-placement-partners-container {
+  margin-top: 70px;
+  margin-left: 200px;
+  line-height: 30px;
+}
+.marquee-placements {
+  margin-top: 50px;
+  display: block;
+}
+.marquee-imgs {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.company-img {
+  width: 12%;
+}
+.college-details-container {
+  margin-top: 70px;
+  background-color: #E2502c;
+  background-image: url("./images/rgm-building-photo.jpg");
+}
+.college-details {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: start;
+ margin-left: 200px;
+ margin-right: 350px;
+}
+.head-top {
+  line-height: 20px;
+  font-family: arial;
+  font-size: 12px;
+  text-decoration: underline;
+  color: white;
+}
+.details,
+.details-1,
+.details-2 {
+  font-family: arial;
+  font-size: 14px;
+  color: white;
+  line-height: 25px;
+}
+.details-1:hover,
+.details-2 {
+  cursor: pointer;
+} 

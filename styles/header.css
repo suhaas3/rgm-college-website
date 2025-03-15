@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  z-index: 1000;
+}
+.left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  margin-right: 100px;;
+}
+.clg-logo {
+  width:100px;
+  height: 100px;
+}
+.clg-name {
+  font-family: arial;
+  font-size: 18px;
+  white-space: nowrap;
+  color: black;
+}
+.clg-name-bold {
+  font-family: arial;
+  font-size: 25px;
+  font-weight: 550;
+  white-space: nowrap;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middle-section div {
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+  white-space: nowrap;
+  line-height: 20px;
+  color: rgb(58, 56, 56);
+  margin-right: 80px;
+}
+.right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 220px;
+}
+.couselling-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.couselling {
+  font-family: arial;
+}
+.code {
+  font-family: arial;
+  font-size: 35px;
+  font-weight: 550;
+}
+.naac-logo,
+.nba-logo {
+  width:60px;
+  height: 60px;
+}

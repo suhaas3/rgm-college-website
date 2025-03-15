@@ -1,0 +1,47 @@
+.nirf-header {
+  margin-top: -5px;
+  display: block;
+  background-color: #E2502C;
+  padding: 40px 20px 10px 20px;
+}
+.nirf-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nirf-icon {
+  margin-left: 150px;
+  width: 200px;
+}
+.nirf-img {
+  width: 100px;
+  cursor: pointer;
+}
+.nirf-description {
+  display: flex;
+  flex: 1;
+  width: 720px;
+  color: white;
+  font-family: Arial;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 550;
+}
+.know-button {
+  margin-left: 100px;
+  margin-right: 150px;
+  display: flex;
+  border: none;
+  white-space: nowrap;
+  padding:20px;
+  border-radius: 3px;
+  color: rgb(14, 14, 121);
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 550;
+}
+.know-button:hover {
+  cursor: pointer;
+  color: #E2502C;
+}
